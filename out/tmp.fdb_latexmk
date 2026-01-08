@@ -1,0 +1,16 @@
+# Fdb version 3
+["dvipdf"] 0 "out/tmp.dvi" "out/tmp.pdf" "out/tmp" 0
+  "out/tmp.dvi" 0 -1 0 "latex"
+  (generated)
+  "out/tmp.pdf"
+["latex"] 1767849517 "/home/kou0123/adrobo_abst_2025/tmp.tex" "out/tmp.dvi" "tmp" 1767849517
+  "/etc/texmf/web2c/texmf.cnf" 1760608501 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/home/kou0123/adrobo_abst_2025/tmp.tex" 1767849517 0 d41d8cd98f00b204e9800998ecf8427e ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
+  "/var/lib/texmf/web2c/eptex/platex.fmt" 1760608515 7268683 20de4f45be17850871020dd889fc5e07 ""
+  "out/tmp.aux" 1767849517 8 a94a2480d3289e625eea47cd1b285758 ""
+  "tmp.tex" 1767849517 0 d41d8cd98f00b204e9800998ecf8427e ""
+  (generated)
+  "out/tmp.dvi"
+  "out/tmp.log"

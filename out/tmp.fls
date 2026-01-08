@@ -1,0 +1,10 @@
+PWD /home/kou0123/adrobo_abst_2025
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /etc/texmf/web2c/texmf.cnf
+INPUT /usr/share/texmf/web2c/texmf.cnf
+INPUT /usr/share/texlive/texmf-dist/web2c/texmf.cnf
+INPUT /var/lib/texmf/web2c/eptex/platex.fmt
+INPUT /home/kou0123/adrobo_abst_2025/tmp.tex
+OUTPUT out/tmp.log
