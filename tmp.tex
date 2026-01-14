@@ -7,6 +7,7 @@
 \usepackage[superscript]{cite}
 \usepackage{enumerate}
 \usepackage{url}
+\usepackage{booktabs}
 %\usepackage[absolute]{textpos}
 
 \renewcommand\citeform[1]{(#1)}
@@ -53,14 +54,13 @@
     本研究の目的は，AR技術を用いた食品のネガポジ反転処理が，喫食者の食欲，満足度，および味覚知覚にどのような影響を与えるかを実験的に明らかにすることである．
 
 %    \begin{center}
-%            \includegraphics[width=0.45\textwidth]{./fig/sample.png}
+%            \includegraphics[width=0.45\textwidth]{fig/.jpg}
 %            \caption{Sample of clear figure}
 %            \label{fig:sample-fig}
 %        \end{figure}
 %   \end{center}
     
-    %要出典
-    %図いれる
+ %図いれる
 
     \section{提案手法}
     ネガポジ反転処理を実現するため,VRヘッドマウントディスプレイである「Meta Quest 3」を用いた手法を提案する．
@@ -68,15 +68,14 @@
     Meta社が提供しているUnityプロジェクト「Passthrough Camera Api Samples」を基に, 
     カメラで映し出された映像の指定範囲のピクセルに対してネガポジ反転処理を行うアプリを実装した. 
     このアプリでは, カメラから入力されたRGBの各輝度値 $I$ に対し, 出力値 $I'$ を $I' = 1.0 - I$ と定義することで, 色相と明度を反転させている. 
-%視界が反転されている図をいれる
+%視界が反転されている視界の図をいれる
 
     \section{実\hspace{2zw}験}
-    被験者は20から26歳の男性10名とし，Metaquest3を装着した状態で
+    被験者は20から26歳の男性10名とし，図1のようにMetaquest3を装着した状態で
     市販の同一製品のカップラーメンをネガポジ反転処理された状態と通常の視界で摂取した．
-    被験者には食事前と食事後にそれぞれアンケートを行い，食欲や満腹感の変化について調査した．
+    また被験者には食事前と食事後にそれぞれアンケートを行い，見た目の魅力, 食欲, 味の知覚, 不快感, 満足度等の6項目（7段階リッカート尺度）ついて調査した．
 
     本実験では,　提示順序による順序効果（慣れや満腹感の影響）を相殺するため, 被験者をランダムに以下の2群に割り当てた. 
-
     \begin{itemize}
     \item \textbf{A群}：1回目に「通常視界」, 2回目に「ネガポジ反転視界」の順で摂取
     \item \textbf{B群}：1回目に「ネガポジ反転視界」, 2回目に「通常視界」の順で摂取
@@ -84,14 +83,109 @@
 
     \begin{figure}[H]
     \begin{center}
-    \includegraphics[width=0.3\linewidth]{figs/IMG_5322.jpg}
-    \caption{食事の様子}
+    \includegraphics[width=0.6\linewidth]{fig/IMG_5322.jpg}
+    \caption{The eating scene}
     \label{fig:exp_human}
     \end{center}
     \end{figure}
 
+    実験結果を表1，表2に示す．「見た目がおいしそうだった」という項目において, 通常時の平均値が5.3であったのに対し, ネガポジ視界時では1.7と大幅に低下した. 
+    これに伴い, 「食べたい気持ちは続いたか」という項目も, 通常時の6.2からネガポジ時の2.9へと大きく減少している. 
+    このことから, 視覚情報のネガポジ化は, 対象物の食欲を著しく減退させ, 食意欲の維持を困難にさせることが示唆された.
+
+    「味を通常通り感じたか」という項目では, 通常時6.2に比べてネガポジ時3.6は低い評価となった. 食品自体は同一であるにもかかわらず, 
+    視覚的な違和感が味覚の知覚や評価に対して負の影響を与えている可能性が示された. 自由記述においても, 
+    「本来の味がわからなくなった」「色が不自然で脳が味を拒絶している感覚があった」といった意見が散見された.
+
+    視界の状態に対する不快感は, 通常時の3.3に対し, ネガポジ時では3.8と微増した. しかし, 全体の満足度については通常時の5.7からネガポジ時の3.0へと大きく低下しており,
+     単なる視界の不快さ以上に, 視覚情報の不自然さが食事体験全体の質を著しく阻害する要因となっていることが確認された.
 
 
+\begin{table}[H]
+  \centering
+  \caption{Questionnaire results under normal visual conditions ($n=10$)}
+  \label{tab:normal_results}
+  \resizebox{\columnwidth}{!}{
+    \begin{tabular}{lcccc}
+      \toprule
+      Item & Mean & Median & Standard Deviation \\
+      Hunger level & 4.8 & 5.0 & 1.25 \\
+      Desire to eat cup noodles & 4.9 & 4.5 & 1.04 \\
+      Looked appetizing & 5.3 & 6.0 & 1.62 \\
+      Perceived taste as usual & 6.2 & 7.0 & 1.25 \\
+      Desire to continue eating & 6.2 & 7.0 & 1.17 \\
+      Visual condition was uncomfortable & 3.3 & 3.0 & 1.95 \\
+      Overall satisfaction & 5.7 & 6.5 & 1.68 \\
+      \bottomrule
+    \end{tabular}
+  }
+\end{table}
+
+% --- 表2: ネガポジ時 ---
+\begin{table}[H]
+  \centering
+  \caption{Questionnaire results under negative–positive visual conditions ($n=10$)}
+  \label{tab:negaposi_results}
+  \resizebox{\columnwidth}{!}{
+    \begin{tabular}{lcccc}
+      \toprule
+      Item & Mean & Median & Standard Deviation \\
+      Hunger level & 4.7 & 5.0 & 1.85 \\
+      Desire to eat cup noodles & 4.3 & 4.5 & 2.15 \\
+      Looked appetizing & 1.7 & 1.0 & 1.19 \\
+      Perceived taste as usual & 3.6 & 3.0 & 1.80 \\
+      Desire to continue eating & 2.9 & 2.5 & 1.30 \\
+      Visual condition was uncomfortable & 3.8 & 4.5 & 1.89 \\
+      Overall satisfaction & 3.0 & 3.0 & 0.89 \\
+      \bottomrule
+    \end{tabular}
+  }
+\end{table}
+
+
+    \section{結\hspace{2zw}言}%===========================
+    本研究では，食べ過ぎを防ぐことを目的として，AR技術を用いた食品のネガポジ反転提示が喫食者の食行動に与える影響を検証した．
+    実験の結果，ネガポジ反転処理は食品の「見た目のおいしさ」および「食欲の維持」を大幅に減退させることが確認できた．
+    特に，食品そのものは同一であるにもかかわらず，味覚の正常な知覚が阻害され，「味が感じずらくなる」といった心理的反応が確認された．
+    これは，色の付加による既存手法以上に，補色変換による視覚的違和感が強力な摂食抑制因子として機能することを示唆している．
+    一方で，長期的な利用における視覚的慣れの影響についてはさらなる検証が必要である．
+    
+    \vspace{5truemm}
+    {\footnotesize
+        \begin{thebibliography}{99}
+
+            \bibitem{奥田ら2002}
+            奥田 弘枝: ``Correlation between the Image of Food Colors and the Taste Sense'', 
+            日本調理科学会誌, 
+            Vol.35, (2002), pp.~2--9.
+
+
+            
+            \bibitem{村井ら2020}
+            D. Murai, Y. Takegawa, A.Terai, K. Hirata: ``シースルー型HMDを用いた食べ物への動的な映像効果重畳による食欲減衰手法の提案'',
+            研究報告エンタテインメントコンピューティング（EC）,
+            (2022)vol.30, pp.~1--3.
+
+           
+            \bibitem{Adrobo2019}
+            千葉工業大学 未来ロボティクス学科 学科概要: 
+            \url{http://www.robotics.it-chiba.ac.jp/ja/subject/index.html}， 
+            （参照日 2023年1月29日）. 
+            
+        \end{thebibliography}
+    }
+    \normalsize
+    
+\end{document}
+
+
+
+%    \section{引用文献の書き方}%===========================
+%    本文中の引用箇所には，右肩に小括弧をつけて，通し番号を付ける．例えば，文献\cite{工大2005}や，文献\cite{Shibutani2004, Handbook1979, Kikuchi2017, Adrobo2019}のようにする．
+
+%    引用文献は，英文で記述されているもの（文献\cite{Shibutani2004}など）は英文で書き，本文末尾に引用順にまとめて書く．専門的な書籍（文献\cite{Handbook1979}など）についても引用しても良い．
+%    Web上の資料を引用する場合，例えばオンラインジャーナルなどの場合は文献\cite{Kikuchi2017}のように，webページの場合は文献\cite{Adrobo2019}のように，それぞれ参考文献として記載して引用する．この時，URLとともに参照日を記載すること．ただし，webページの場合は個人の技術ブログなどのように第3者による十分な審査が行われていないものの引用は行ってはいけない．公的な機関が発行しているページであっても，その永続性の問題から必要最小限に留めることを推奨する．
+        
     
 %    \section{記号・単位の書き方}%===========================
 %    \begin{table}[!h]
@@ -186,55 +280,3 @@
     %本見本では\refeqn{long-eq}のようにページの最上段もしくは最下段に配置している場合は，上記のような混乱は生じ得ないので以下の文章は2段組で続けることができる．
     %ただし，所望の位置に表示されない，文字が重なるなどレイアウト上の多くの問題が生じるため，極めて推奨しない．
     
-    \section{引用文献の書き方}%===========================
-    本文中の引用箇所には，右肩に小括弧をつけて，通し番号を付ける．例えば，文献\cite{工大2005}や，文献\cite{Shibutani2004, Handbook1979, Kikuchi2017, Adrobo2019}のようにする．
-    
-    引用文献は，英文で記述されているもの（文献\cite{Shibutani2004}など）は英文で書き，本文末尾に引用順にまとめて書く．専門的な書籍（文献\cite{Handbook1979}など）についても引用しても良い．
-    Web上の資料を引用する場合，例えばオンラインジャーナルなどの場合は文献\cite{Kikuchi2017}のように，webページの場合は文献\cite{Adrobo2019}のように，それぞれ参考文献として記載して引用する．この時，URLとともに参照日を記載すること．ただし，webページの場合は個人の技術ブログなどのように第3者による十分な審査が行われていないものの引用は行ってはいけない．公的な機関が発行しているページであっても，その永続性の問題から必要最小限に留めることを推奨する．
-        
-    \section{結\hspace{2zw}言}%===========================
-    このスタイルファイル「adrobo\_abst.sty」は，千葉工業大学 未来ロボティクス学科の卒業研究概要として公式に提出可能なように，学科で配布するwordテンプレートとレイアウトなどの体裁を合わせたものである．
-    ただし，絶対的な出来上がりのレベルを保証するものではないため，執筆を進める上で不具合などが生じた場合は，直ちに製作者に通知をすることが望まれる．
-    また，使用者によるスタイルファイルの微調整などに関しては，自己責任の範囲において自由に行って良い．
-    
-    \vspace{5truemm}
-    {\footnotesize
-        \begin{thebibliography}{99}
-
-            \bibitem{奥田ら2002}
-            工大太郎: ``Correlation between the Image of Food Colors and the Taste Sense'', 
-            日本調理科学会誌, 
-            Vol.35, (2002), pp.~2--9.
-
-
-            
-            \bibitem{村井ら2020}
-            D. Murai, Y. Takegawa, A.Terai, K. Hirata: ``シースルー型HMDを用いた食べ物への動的な映像効果重畳による食欲減衰手法の提案'',
-            研究報告エンタテインメントコンピューティング（EC）,
-            (2022)vol.30, pp.~1--3.
-
-           
-            
-            \bibitem{Shibutani2004}
-            Y. Shibutani: ``Heinrich's Law Resulted Pattern Dynamics --Part2--''，
-            Proceedings of the 79th Kansai Branch Regular Meeting of the Japan Society of Mechanical Engineers,  
-            No.~04--05 (2004), pp.~205--206.
-            
-            \bibitem{Handbook1979}
-            The Japan Society of Mechanical Engineers ed.: ``JSME Date Handbook: Heat Transfer'', 
-            (1979), p.~123, The Japan Society of Mechanical Engineers.
-            
-            \bibitem{Kikuchi2017}
-            K. Kikuchi, M. Miura, K. Shibata, J. Yamamura: ``Soft Landing Condition for Stair-climbing Robot with Hopping Mechanism'', 
-            Journal of JSDE, Vol.~53, No.~8 (2018), pp.~605--614, \url{https://doi.org/10.14953/jjsde.2017.2774}.
-            
-            \bibitem{Adrobo2019}
-            千葉工業大学 未来ロボティクス学科 学科概要: 
-            \url{http://www.robotics.it-chiba.ac.jp/ja/subject/index.html}， 
-            （参照日 2023年1月29日）. 
-            
-        \end{thebibliography}
-    }
-    \normalsize
-    
-\end{document}

@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2025.10.16)  14 JAN 2026 14:48
+This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2025.10.16)  14 JAN 2026 15:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -143,116 +143,119 @@ Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
 ) (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+) (/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen164
+\lightrulewidth=\dimen165
+\cmidrulewidth=\dimen166
+\belowrulesep=\dimen167
+\belowbottomsep=\dimen168
+\aboverulesep=\dimen169
+\abovetopsep=\dimen170
+\cmidrulesep=\dimen171
+\cmidrulekern=\dimen172
+\defaultaddspace=\dimen173
+\@cmidla=\count191
+\@cmidlb=\count192
+\@aboverulesep=\dimen174
+\@belowrulesep=\dimen175
+\@thisruleclass=\count193
+\@lastruleclass=\count194
+\@thisrulewidth=\dimen176
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-dvips.def
 File: l3backend-dvips.def 2020-02-03 L3 backend support: dvips
 \l__pdf_internal_box=\box65
-\g__pdf_backend_object_int=\count191
+\g__pdf_backend_object_int=\count195
 \l__pdf_backend_content_box=\box66
 \l__pdf_backend_model_box=\box67
-\g__pdf_backend_annotation_int=\count192
-\g__pdf_backend_link_int=\count193
-\g__pdf_backend_link_sf_int=\count194
+\g__pdf_backend_annotation_int=\count196
+\g__pdf_backend_link_int=\count197
+\g__pdf_backend_link_sf_int=\count198
+) (out/b-thesis_abst.aux
+
+LaTeX Warning: Label `fig:exp_human' multiply defined.
+
 )
-No file b-thesis_abst.aux.
 \openout1 = `b-thesis_abst.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
-LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 14.
-LaTeX Font Info:    ... okay on input line 14.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for JY1/mc/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
+LaTeX Font Info:    Checking defaults for JT1/mc/m/n on input line 15.
+LaTeX Font Info:    ... okay on input line 15.
 LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <12> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 35.
+(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 35.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <12> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 35.
+(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 35.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <14> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 35.
+(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 35.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <14> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 35.
+(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 35.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 36.
 
 LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 35.
+(Font)              using `JT1/mc/m/n' instead on input line 36.
 
 
 LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 35.
+(Font)              using `JY1/mc/m/n' instead on input line 36.
 
 
 LaTeX Font Warning: Font shape `JT1/mc/b/it' undefined
-(Font)              using `JT1/mc/b/n' instead on input line 35.
+(Font)              using `JT1/mc/b/n' instead on input line 36.
 
 LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <10> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 35.
+(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 35.
+(Font)              Font shape `JT1/gt/m/n' tried instead on input line 36.
 
 LaTeX Font Warning: Font shape `JY1/mc/b/it' undefined
-(Font)              using `JY1/mc/b/n' instead on input line 35.
+(Font)              using `JY1/mc/b/n' instead on input line 36.
 
 LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <10> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 35.
+(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 35.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 35.
+(Font)              Font shape `JY1/gt/m/n' tried instead on input line 36.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 35.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 10000) in alignment at lines 37--37
+Underfull \hbox (badness 10000) in alignment at lines 38--38
 []
  []
 
 
-Overfull \hbox (8.53581pt too wide) in paragraph at lines 37--37
+Overfull \hbox (8.53581pt too wide) in paragraph at lines 38--38
 [][][][] 
  []
-
-LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <7> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <7> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 43.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <7> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 43.
-
-LaTeX Warning: Citation `奥田ら2002' on page 1 undefined on input line 43.
-
-
-LaTeX Warning: Citation `村井ら2020' on page 1 undefined on input line 48.
 
 
 Underfull \hbox (badness 4954) in paragraph at lines 68--72
 []\OT1/cmr/m/n/10 Meta \JY1/mc/m/n/10 社が提供している \OT1/cmr/m/n/10 Unity \JY1/mc/m/n/10 プロジ ェ クト
- []
-
-
-Underfull \hbox (badness 6542) in paragraph at lines 74--77
-[]\JY1/mc/m/n/10 被験者は \OT1/cmr/m/n/10 20 \JY1/mc/m/n/10 から \OT1/cmr/m/n/10 26 \JY1/mc/m/n/10 歳の男性 \OT1/cmr/m/n/10 10 \JY1/mc/m/n/10 名とし 、
  []
 
 [1
@@ -260,25 +263,30 @@ Underfull \hbox (badness 6542) in paragraph at lines 74--77
 
 
 ]
+File: fig/IMG_5322.jpg Graphic file (type bmp)
+<fig/IMG_5322.jpg>
+File: fig/cupnoodle.jpg Graphic file (type bmp)
+<fig/cupnoodle.jpg>
 
-LaTeX Warning: File `./fig/IMG_5322.png' not found on input line 86.
+Underfull \hbox (badness 10000) in paragraph at lines 135--135
+[]\OT1/cmr/m/n/10 Questionnaire re-sults un-der neg-a-
+ []
+
+[2] (out/b-thesis_abst.aux)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 
-/home/kou0123/adrobo_abst_2025/b-thesis_abst.tex:86: LaTeX Error: Cannot determine size of graphic in ./fig/IMG_5322.xbb (no BoundingBox).
+LaTeX Warning: There were multiply-defined labels.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.86 ...[width=0.45\textwidth]{./fig/IMG_5322.png}
-                                                   
+ ) 
 Here is how much of TeX's memory you used:
- 2436 strings out of 482863
- 30599 string characters out of 5959217
- 268737 words of memory out of 5000000
- 17715 multiletter control sequences out of 15000+600000
- 544603 words of font info for 72 fonts, out of 8000000 for 9000
+ 2499 strings out of 482863
+ 31170 string characters out of 5959217
+ 273558 words of memory out of 5000000
+ 17778 multiletter control sequences out of 15000+600000
+ 551005 words of font info for 96 fonts, out of 8000000 for 9000
  264 hyphenation exceptions out of 8191
- 30i,7n,31p,291b,299s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 30i,8n,31p,290b,429s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on out/b-thesis_abst.dvi (1 page, 6436 bytes).
+Output written on out/b-thesis_abst.dvi (2 pages, 13772 bytes).
