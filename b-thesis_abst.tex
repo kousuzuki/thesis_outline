@@ -17,16 +17,16 @@
     \makeatletter
     \doctype{2025年度卒業論文概要}
     \title{色彩反転された食品がもたらす食欲減退効果の検証}{}
-    \etitle{Verification of Appetite Suppression Effects Induced by Color Inversion Processing on Food}{}
+    \etitle{Verification of Appetite Suppression Effects Induced by Color Inversion Processing on Food@@@たぶんProcessing on Foodいらんかも@@@}{}
     
     \author{22C1070\hspace{.5zw}鈴木航}
     \eauthor{Ko SUZUKI}
     
     \makeatother
     
-    \abstract{This research explores the impact of color inversion on appetite to prevent overeating. 
-    We developed an application for Head-Mounted Displays that performs real-time negative-positive reversal of food appearance. 
-    The experimental results confirmed that color-inverted food elicited significant psychological reactions, 
+    \abstract{This research explores the impact of color inversion @@@of foods@@@ on appetite to prevent overeating. 
+    We developed an application for Head-Mounted Displays @@@固有名詞じゃないのでキャピタライズしない@@@ that performs real-time negative-positive reversal of food appearance. 
+    The experimental results confirmed @@@confirmは主語が人？suggestedのほうがいいかも@@@ that color-inverted food @@@foodはたぶん加算名詞なんじゃないかと（しらべといてください）@@@ elicited significant psychological reactions, 
     including reduced appetite and diminished taste perception.
     }
 
@@ -62,12 +62,13 @@
     \end{figure}
     
 
-    \section{提案手法}
-    ネガポジ反転処理を実現するため,VRヘッドマウントディスプレイである「Meta Quest 3」を用いた手法を提案する。
+    \section{提案手法}@@@手法とかいてしまうとそれが研究のすべての目的にみたいになってしまうので、ネガポジ反転システムの開発とか、そういうタイトルにしたほうがいいかも@@@
+    ネガポジ反転処理を実現するため,@@@スペース抜け@@@VRヘッドマウントディスプレイである「Meta Quest 3」を用いた手法@@@手法には具体的な製品名を入れないこと。「開発」なら大丈夫@@@を提案する。
     Meta社が提供しているUnityプロジェクト「Passthrough Camera Api Samples」を基に, 
     カメラで映し出された映像の指定範囲のピクセルに対してネガポジ反転処理を行うアプリを実装した. 
     このアプリでは, カメラから入力されたRGBの各輝度値 $I$ に対し, 出力値 $I'$ を $I' = 1.0 - I$ と定義することで, 色相と明度を反転させている. 
 
+    @@@なんかシステム図ほしい@@@
 
     \section{実\hspace{2zw}験}
     被験者は20から26歳の男性10名とし、図2のようにMetaquest3を装着した状態で
@@ -83,7 +84,7 @@
     \begin{figure}[H]
     \begin{center}
     \includegraphics[width=0.5\linewidth]{fig/IMG_5322.jpg}
-    \caption{The eating scene}
+    \caption{The eating scene @@@Theはとりましょう（大げさなので）@@@}
     \label{fig:exp_human}
     \end{center}
     \end{figure}
@@ -91,12 +92,12 @@
     \begin{figure}[H]
     \begin{center}
     \includegraphics[width=0.5\linewidth]{fig/cupnoodle.jpg}
-    \caption{Negative–positive inverted Noodle}
+    \caption{Negative–positive inverted Noodle @@@スペースたりないのでminipage使って横並びに@@@ @@@タイトルでは何によってこうなるかを強調しましょう。Noodle observed through HMDとか？@@@}
     \label{fig:exp_Noodle}
     \end{center}
     \end{figure}
 
-    実験結果を表1、表2に示す。「見た目がおいしそうだった」という項目において, 通常時の平均値が5.3であったのに対し, ネガポジ視界時では1.7と大幅に低下した. 
+    実験結果を表1、表2@@@表1, 2@@@に示す。「見た目がおいしそうだった」という項目において, 通常時の平均値が5.3であったのに対し, ネガポジ視界時では1.7と大幅に低下した. 
     これに伴い, 「食べたい気持ちは続いたか」という項目も, 通常時の6.2からネガポジ時の2.9へと大きく減少している. 
     このことから, 食品のネガポジ化は, 対象物の食欲を著しく減退させ, 食意欲の維持を困難にさせることが示唆された.
 
@@ -110,7 +111,7 @@
 
 \begin{table}[H]
   \centering
-  \caption{Questionnaire results under normal visual conditions ($n=10$)}
+  \caption{Questionnaire results under normal visual conditions ($n=10$)@@@特に重要な数字を太字にするなど強弱を@@@}
   \label{tab:normal_results}
   \resizebox{\columnwidth}{!}{
     \begin{tabular}{lcccc}
