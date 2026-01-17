@@ -1,4 +1,4 @@
-This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2025.10.16)  16 JAN 2026 20:29
+This is e-pTeX, Version 3.14159265-p3.8.2-190908-2.6 (utf8.euc) (TeX Live 2019/Debian) (preloaded format=platex 2025.10.16)  18 JAN 2026 01:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -218,86 +218,4 @@ LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <12> not available
 (Font)              Font shape `JT1/gt/m/n' tried instead on input line 36.
 LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <12> not available
 (Font)              Font shape `JY1/mc/bx/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <14> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <14> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <14> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <14> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 36.
-
-
-LaTeX Font Warning: Font shape `JT1/mc/m/it' undefined
-(Font)              using `JT1/mc/m/n' instead on input line 36.
-
-
-LaTeX Font Warning: Font shape `JY1/mc/m/it' undefined
-(Font)              using `JY1/mc/m/n' instead on input line 36.
-
-
-LaTeX Font Warning: Font shape `JT1/mc/b/it' undefined
-(Font)              using `JT1/mc/b/n' instead on input line 36.
-
-LaTeX Font Info:    Font shape `JT1/mc/b/n' in size <10> not available
-(Font)              Font shape `JT1/mc/bx/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `JT1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JT1/gt/m/n' tried instead on input line 36.
-
-LaTeX Font Warning: Font shape `JY1/mc/b/it' undefined
-(Font)              using `JY1/mc/b/n' instead on input line 36.
-
-LaTeX Font Info:    Font shape `JY1/mc/b/n' in size <10> not available
-(Font)              Font shape `JY1/mc/bx/n' tried instead on input line 36.
-LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <10> not available
-(Font)              Font shape `JY1/gt/m/n' tried instead on input line 36.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 36.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 36.
-
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-Underfull \hbox (badness 10000) in alignment at lines 38--38
-[]
- []
-
-
-Overfull \hbox (8.53581pt too wide) in paragraph at lines 38--38
-[][][][] 
- []
-
-File: fig/negapozi_noodle.jpg Graphic file (type bmp)
-<fig/negapozi_noodle.jpg>
-[1
-
-
-
-]
-File: fig/IMG_5322.jpg Graphic file (type bmp)
-<fig/IMG_5322.jpg>
-File: fig/cupnoodle.jpg Graphic file (type bmp)
-<fig/cupnoodle.jpg>
- [2] [3
-
-] (./tmp.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
- ) 
-Here is how much of TeX's memory you used:
- 2465 strings out of 482863
- 30721 string characters out of 5959217
- 274502 words of memory out of 5000000
- 17761 multiletter control sequences out of 15000+600000
- 545365 words of font info for 75 fonts, out of 8000000 for 9000
- 264 hyphenation exceptions out of 8191
- 30i,8n,31p,315b,347s stack positions out of 5000i,500n,10000p,200000b,80000s
-
-Output written on tmp.dvi (3 pages, 14200 bytes).
+LaTeX Font Info:    Font shape `JY1/mc/bx/n' in size <12> not av
