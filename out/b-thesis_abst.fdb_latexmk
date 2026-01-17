@@ -1,20 +1,17 @@
 # Fdb version 3
-["dvipdf"] 1768472362 "out/b-thesis_abst.dvi" "out/b-thesis_abst.pdf" "out/b-thesis_abst" 1768472362
-  "out/b-thesis_abst.dvi" 1768472362 13244 bc58f3fb28652d21c535932ee1bbaa42 "latex"
+["dvipdf"] 0 "out/b-thesis_abst.dvi" "out/b-thesis_abst.pdf" "out/b-thesis_abst" 1768668307
+  "out/b-thesis_abst.dvi" 1768563533 13972 810be196937a4a63f5f8c2540c683396 "latex"
   (generated)
   "out/b-thesis_abst.pdf"
-["latex"] 1768472362 "/home/kou0123/adrobo_abst_2025/b-thesis_abst.tex" "out/b-thesis_abst.dvi" "b-thesis_abst" 1768472362
+["latex"] 1768668307 "/home/kou0123/adrobo_abst_2025/b-thesis_abst.tex" "out/b-thesis_abst.dvi" "b-thesis_abst" 1768668307
   "/etc/texmf/web2c/texmf.cnf" 1760608501 475 c0e671620eb5563b2130f56340a5fde8 ""
-  "/home/kou0123/adrobo_abst_2025/b-thesis_abst.tex" 1768472362 16771 c226d607ae5bd6132b83d084e2d869e5 ""
+  "/home/kou0123/adrobo_abst_2025/b-thesis_abst.tex" 1768668307 17368 635f19e4b1f5f47f9921f8439c0c83aa ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/tcrm1000.tfm" 1136768653 1536 e07581a4bb3136ece9eeb4c3ffab8233 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/goth10.tfm" 1463434352 1196 5981e79c37b2cfd27b3612a6783cd4b6 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/min10.tfm" 1463434352 1196 1be730212205a270378fba11a44765dc ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/min8.tfm" 1463434352 1196 d5b431ce76e19b70391960a9dd08fa4f ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/min9.tfm" 1463434352 1196 415df3c165ce605a3c248afbbe3c844b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/tgoth10.tfm" 1463434352 856 7404843a5f798859944d7973a47821d5 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin10.tfm" 1463434352 856 39c171483fe1bb7d0e1368980c0c205b ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin8.tfm" 1463434352 856 bdef40bcf3aed4751efa9be9bfa6eb4b ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/ptex-fonts/standard/tmin9.tfm" 1463434352 856 b22b8128b44bf8881977f2c74b361f47 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy5.tfm" 1246382020 1120 1e8878807317373affa7f7bba4cf2f6a ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmbsy7.tfm" 1246382020 1120 7f9f170e8aa57527ad6c49feafd45d54 ""
@@ -35,7 +32,6 @@
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmbxti10.tfm" 1136768653 1532 9162035f4e7176612125649e348e2195 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmmib10.tfm" 1136768653 1524 554068197b70979a55370e6c6495f441 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1136768653 1288 655e228510b4c2a1abe905c368440826 ""
-  "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1136768653 1292 21c1c5bfeaebccffdb478fd231a0997d ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmr9.tfm" 1136768653 1292 6b21b9c2c7bebb38aa2273f7ca0fb3af ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1136768653 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty" 1359763108 5949 3f3fd50a8cc94c3d4cbf4fc66cd3df1c ""
@@ -66,12 +62,12 @@
   "/usr/share/texmf/web2c/texmf.cnf" 1581979058 38841 ce3692aa899bb693b90b87eaa5d4d84e ""
   "/var/lib/texmf/web2c/eptex/platex.fmt" 1760608515 7268683 20de4f45be17850871020dd889fc5e07 ""
   "adrobo_abst.sty" 1765866062 11542 0c09baf7d27c35557cf4bfca588c8fd4 ""
-  "b-thesis_abst.tex" 1768472362 16771 c226d607ae5bd6132b83d084e2d869e5 ""
-  "fig/IMG_5322.jpg" 1768319470 877265 4814b50bd6ca28121477b2d9230dfdc0 ""
-  "fig/cupnoodle.jpg" 1768373720 28383 d73c296dfc83ae002348c5ad9998e08b ""
+  "b-thesis_abst.tex" 1768668307 17368 635f19e4b1f5f47f9921f8439c0c83aa ""
   "fig/negapozi_noodle.jpg" 1768465896 116367 d4e12f0232b0b0b0d227f9fd4834b3b3 ""
-  "out/b-thesis_abst.aux" 1768472362 1482 b3b88c388c764b45a47aed83779b8037 "latex"
+  "fig/negapozisystem.png" 0 -1 0 ""
+  "out/b-thesis_abst.aux" 1768668293 58 5cf0c05c779c6a38b540f5a4ec7dd4a5 "latex"
+  "out/fig/negapozisystem.png" 0 -1 0 ""
   (generated)
-  "out/b-thesis_abst.aux"
-  "out/b-thesis_abst.log"
   "out/b-thesis_abst.dvi"
+  "out/b-thesis_abst.log"
+  "out/b-thesis_abst.aux"
