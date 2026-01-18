@@ -37,8 +37,7 @@
     
     \supervisor{指導教員：上田 隆一 教授}
     
-    \section{緒\hspace{2zw}言}%===========================
-
+    \section{緒\hspace{2zw}言}%==========================
     近年，食習慣の変化に伴う肥満や生活習慣病の増加が深刻な社会問題となっている．食べ過ぎを防ぐ方法として食品の色彩を操作し食欲を抑制するアプローチがある．
     先行研究\cite{奥田ら2002}では，食品の色彩は「美味しさの評価」や「摂食意欲」と密接に関係しており，暖色系は食欲を促進し，寒色系はそれを減退させることが報告されている．
 
@@ -53,32 +52,27 @@
     そこで本研究では，特定の色の重畳よりも劇的な視覚変容をもたらす処理としてネガポジ反転を行い，
     喫食者の食欲，満足度，および味覚知覚にどのような影響を与えるかを実験的に明らかにする．
 
-    \begin{figure}[H]
+    \begin{figure}[h]
     \begin{center}
-    \includegraphics[width=0.45\linewidth]{fig/negapozi_noodle.jpg}
-    \caption{Color-inverted ramen}
-    \label{fig:exp_negapozi}
+      \includegraphics[width=0.29\linewidth]{fig/negapozi_noodle.jpg}
+      \caption{Color-inverted ramen}
+      \label{fig:exp_negapozi}
     \end{center}
     \end{figure}
-    
 
     \section{ネガポジ反転システムの開発}
-    ネガポジ反転処理を実現するため, VRヘッドマウントディスプレイである「Meta Quest 3」を用いた手法@@@手法には具体的な製品名を入れないこと．「開発」なら大丈夫@@@を提案する．
+    ネガポジ反転処理を実現するため, VRヘッドマウントディスプレイである「Meta Quest 3」を用いたシステムを開発した．
     Meta社が提供しているUnityプロジェクト「Passthrough Camera Api Samples」を基に, 
     カメラで映し出された映像の指定範囲のピクセルに対してネガポジ反転処理を行うアプリを実装した. 
     このアプリでは, カメラから入力されたRGBの各輝度値 $I$ に対し, 出力値 $I'$ を $I' = 1.0 - I$ と定義することで, 色相と明度を反転させている. 
 
     \begin{figure}[H]
-    \begin{center}
-    \includegraphics[width=0.45\linewidth]{fig/negapozisystem.png}
-    \caption{Color inversion system}
-    \label{fig:exp_system}
-    \end{center}
+     \begin{center}
+      \includegraphics[width=0.75\linewidth]{fig/negapozisystem.png}
+       \caption{Color inversion system}
+        \label{fig:exp_system}
+     \end{center}
     \end{figure}
-
-    @@@なんかシステム図ほしい@@@
-
-
 
     \section{実\hspace{2zw}験}
     被験者は20から26歳の男性10名とし，図2のようにMetaquest3を装着した状態で
@@ -91,21 +85,21 @@
     \item \textbf{B群}：1回目に「ネガポジ反転視界」, 2回目に「通常視界」の順で摂取
     \end{itemize}
 
-    \begin{figure}[H]
-    \begin{center}
-    \includegraphics[width=0.5\linewidth]{fig/IMG_5322.jpg}
+\begin{figure}[H]
+  \centering
+  \begin{minipage}[t]{0.48\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{fig/IMG_5322.jpg}
     \caption{Eating scene}
-    \label{fig:exp_human}
-    \end{center}
-    \end{figure}
+  \end{minipage} 
+  \hfill
+  \begin{minipage}[t]{0.5\linewidth}
+    \centering
+    \includegraphics[width=\linewidth]{fig/cupnoodle.jpg}
+    \caption{Noodle observed\\ through HMD}
+  \end{minipage}
+\end{figure}
 
-    \begin{figure}[H]
-    \begin{center}
-    \includegraphics[width=0.5\linewidth]{fig/cupnoodle.jpg}
-    \caption{Negative–positive inverted Noodle @@@スペースたりないのでminipage使って横並びに@@@ @@@タイトルでは何によってこうなるかを強調しましょう．Noodle observed through HMDとか？@@@}
-    \label{fig:exp_Noodle}
-    \end{center}
-    \end{figure}
 
     実験結果を表1,2に示す．「見た目がおいしそうだった」という項目において, 通常時の平均値が5.3であったのに対し, ネガポジ視界時では1.7と大幅に低下した. 
     これに伴い, 「食べたい気持ちは続いたか」という項目も, 通常時の6.2からネガポジ時の2.9へと大きく減少している. 
@@ -121,7 +115,7 @@
 
 \begin{table}[H]
   \centering
-  \caption{Questionnaire results under normal visual conditions ($n=10$)@@@特に重要な数字を太字にするなど強弱を@@@}
+  \caption{Questionnaire results under normal visual conditions ($n=10$)}
   \label{tab:normal_results}
   \resizebox{\columnwidth}{!}{
     \begin{tabular}{lcccc}
@@ -129,11 +123,11 @@
       Item & Mean & Median & Standard Deviation \\
       Hunger level & 4.8 & 5.0 & 1.25 \\
       Desire to eat cup noodles & 4.9 & 4.5 & 1.04 \\
-      Looked appetizing & 5.3 & 6.0 & 1.62 \\
-      Perceived taste as usual & 6.2 & 7.0 & 1.25 \\
-      Desire to continue eating & 6.2 & 7.0 & 1.17 \\
+      Looked appetizing & \textbf{5.3} & 6.0 & 1.62 \\
+      Perceived taste as usual & \textbf{6.2} & 7.0 & 1.25 \\
+      Desire to continue eating & \textbf{6.2} & 7.0 & 1.17 \\
       Visual condition was uncomfortable & 3.3 & 3.0 & 1.95 \\
-      Overall satisfaction & 5.7 & 6.5 & 1.68 \\
+      Overall satisfaction & \textbf{5.7} & 6.5 & 1.68 \\
       \bottomrule
     \end{tabular}
   }
@@ -150,11 +144,11 @@
       Item & Mean & Median & Standard Deviation \\
       Hunger level & 4.7 & 5.0 & 1.85 \\
       Desire to eat cup noodles & 4.3 & 4.5 & 2.15 \\
-      Looked appetizing & 1.7 & 1.0 & 1.19 \\
-      Perceived taste as usual & 3.6 & 3.0 & 1.80 \\
-      Desire to continue eating & 2.9 & 2.5 & 1.30 \\
+      Looked appetizing & \textbf{1.7} & 1.0 & 1.19 \\
+      Perceived taste as usual & \textbf{3.6} & 3.0 & 1.80 \\
+      Desire to continue eating & \textbf{2.9} & 2.5 & 1.30 \\
       Visual condition was uncomfortable & 3.8 & 4.5 & 1.89 \\
-      Overall satisfaction & 3.0 & 3.0 & 0.89 \\
+      Overall satisfaction & \textbf{3.0} & 3.0 & 0.89 \\
       \bottomrule
     \end{tabular}
   }
