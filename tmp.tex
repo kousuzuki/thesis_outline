@@ -57,20 +57,22 @@
     \section{ネガポジ反転システムの開発}
     ネガポジ反転処理を実現するため, VRヘッドマウントディスプレイである「Meta Quest 3」を用いたシステムを開発した．
     Meta社が提供しているUnityプロジェクト「Passthrough Camera Api Samples」を基に, 
-    カメラで映し出された映像の指定範囲のピクセルに対してネガポジ反転処理を行うアプリを実装した. 
+    図2のようにカメラで映し出された映像の指定範囲のピクセルに対してネガポジ反転処理を行うアプリを実装した. 
     このアプリでは, カメラから入力されたRGBの各輝度値 $I$ に対し, 出力値 $I'$ を $I' = 1.0 - I$ と定義することで, 色相と明度を反転させている. 
 
 
     \section{実\hspace{2zw}験}
     被験者は20から26歳の男性10名とし，図3のようにMeta Quest 3を装着した状態で
-    市販の同一製品のカップラーメンをネガポジ反転処理された状態と通常の視界で摂取した．
+    市販の同一製品のカップラーメンを,図4のようにネガポジ反転処理された状態と通常の視界で摂取した．
     また被験者には食事前と食事後にそれぞれアンケートを行い，見た目の魅力, 食欲, 味の知覚, 不快感, 満足度等の6項目（7段階リッカート尺度）ついて調査した．
 
     本実験では,　提示順序による順序効果（慣れや満腹感の影響）を相殺するため, 被験者をランダムに以下の2群に割り当てた. 
+
     \begin{itemize}
-    \item \textbf{A群}：1回目に「通常視界」, 2回目に「ネガポジ反転視界」の順で摂取
-    \item \textbf{B群}：1回目に「ネガポジ反転視界」, 2回目に「通常視界」の順で摂取
+    \item \textbf{A群}：通常視界, ネガポジ反転視界の順で摂取
+    \item \textbf{B群}：ネガポジ反転視界, 通常視界の順で摂取
     \end{itemize}
+    \vspace{-10mm}
 
 
     実験結果を表1,2に示す．「見た目がおいしそうだった」という項目において, 通常時の平均値が5.3であったのに対し, ネガポジ視界時では1.7と大幅に低下した. 
@@ -91,7 +93,7 @@
     これは，色の重畳による既存手法以上に，ネガポジ反転による視覚的違和感が強力な摂食抑制因子として機能することを示唆している．
     一方で，長期的な利用における視覚的慣れの影響についてはさらなる検証が必要である．
 
-    \begin{figure}[h]
+    \begin{figure}[H]
     \begin{center}
       \includegraphics[width=0.7\linewidth]{fig/negapozi_noodle.jpg}
       \caption{Color-inverted ramen}
@@ -101,7 +103,7 @@
 
     \vspace{-10mm}
 
-    \begin{figure}[tb]
+    \begin{figure}[h]
      \begin{center}
       \includegraphics[width=0.8\linewidth]{fig/negapozisystem.png}
        \caption{Color inversion system}
@@ -109,7 +111,7 @@
      \end{center}
     \end{figure}
 
-    \begin{figure}[H]
+    \begin{figure}[h]
   \centering
   \begin{minipage}[t]{0.48\linewidth}
     \centering
