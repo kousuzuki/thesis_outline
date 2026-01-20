@@ -55,10 +55,20 @@
 
     \begin{figure}[h]
     \begin{center}
-      \includegraphics[width=0.2\linewidth]{fig/negapozi_noodle.jpg}
+      \includegraphics[width=0.8\linewidth]{fig/negapozi_noodle.jpg}
       \caption{Color-inverted ramen}
       \label{fig:exp_negapozi}
     \end{center}
+    \end{figure}
+
+    \vspace{-10mm}
+
+    \begin{figure}[H]
+     \begin{center}
+      \includegraphics[width=0.8\linewidth]{fig/negapozisystem.png}
+       \caption{Color inversion system}
+        \label{fig:exp_system}
+     \end{center}
     \end{figure}
 
     \section{ネガポジ反転システムの開発}
@@ -66,14 +76,6 @@
     Meta社が提供しているUnityプロジェクト「Passthrough Camera Api Samples」を基に, 
     カメラで映し出された映像の指定範囲のピクセルに対してネガポジ反転処理を行うアプリを実装した. 
     このアプリでは, カメラから入力されたRGBの各輝度値 $I$ に対し, 出力値 $I'$ を $I' = 1.0 - I$ と定義することで, 色相と明度を反転させている. 
-
-    \begin{figure}[H]
-     \begin{center}
-      \includegraphics[width=0.75\linewidth]{fig/negapozisystem.png}
-       \caption{Color inversion system}
-        \label{fig:exp_system}
-     \end{center}
-    \end{figure}
 
     \section{実\hspace{2zw}験}
     被験者は20から26歳の男性10名とし，図2のようにMeta Quest 3を装着した状態で
@@ -133,6 +135,7 @@
     \end{tabular}
   }
 \end{table}
+
 
 % --- 表2: ネガポジ時 ---
 \begin{table}[H]
